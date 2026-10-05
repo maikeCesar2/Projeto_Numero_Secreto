@@ -1,6 +1,6 @@
 // Projeto inicial - Jogo do número secreto
 alert('Boas vindas ao jogo do número secreto');
-let numeroMax = 100;
+let numeroMax = 50;
 // variavel para armazenar o número secreto usando o comando Math.radom() para pseudo aleatorio
 let numeroSecreto = parseInt(Math.random() * numeroMax + 1);
 // Variável para armazenar o chute do jogador. O chute deve ser convertido para um número 
